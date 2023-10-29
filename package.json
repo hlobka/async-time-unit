@@ -1,12 +1,12 @@
 {
   "name": "@hlobka/async-time-unit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package with async time unit tools",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
-    "publish": "npm publish --access=public",
+    "my:publish": "npm publish --access=public",
     "pack": "npm pack",
     "link": "npm link",
     "test": "tsc",
