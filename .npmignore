@@ -1,3 +1,6 @@
 .idea
 *.iml
 /out/*
+.github
+node_modules
+tsconfig.json

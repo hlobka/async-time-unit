@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
+    "publish": "npm publish --access=public",
     "pack": "npm pack",
     "link": "npm link",
     "test": "tsc",
