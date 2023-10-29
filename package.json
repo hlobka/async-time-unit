@@ -8,7 +8,7 @@
     "prepublish": "tsc",
     "pack": "npm pack",
     "link": "npm link",
-    "test": "test",
+    "test": "tsc",
     "build": "tsc"
   },
   "repository": {
