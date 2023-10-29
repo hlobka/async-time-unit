@@ -1,10 +1,14 @@
 {
   "name": "@hlobka/async-time-unit",
   "version": "1.0.0",
-  "description": "async time unit",
-  "main": "index.js",
+  "description": "Package with async time unit tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "prepublish": "tsc",
+    "pack": "npm pack",
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
