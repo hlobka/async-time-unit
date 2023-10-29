@@ -2,5 +2,5 @@
 *.iml
 /out/*
 .github
-node_modules
+/node_modules/*
 tsconfig.json
